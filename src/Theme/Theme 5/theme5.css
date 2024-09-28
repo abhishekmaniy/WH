@@ -1,0 +1,119 @@
+/* Theme5.css */
+
+.theme5-container {
+    font-family: "Poppins", sans-serif;
+    color: #333;
+    padding: 20px;
+    background-color: #f9f9f9;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .header-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .name-heading {
+    font-size: 36px;
+    color: #2c3e50;
+    font-weight: bold;
+  }
+  
+  .profile-text {
+    font-size: 18px;
+    color: #7f8c8d;
+    margin-top: 5px;
+  }
+  
+  .contact-info {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #95a5a6;
+  }
+  
+  .divider {
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+  }
+  
+  .content-section {
+    padding: 20px;
+  }
+  
+  .section-item {
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    color: #e74c3c;
+    margin-bottom: 10px;
+  }
+  
+  .section-content {
+    font-size: 16px;
+    color: #2c3e50;
+  }
+  
+  .experience-item,
+  .education-item,
+  .project-item {
+    margin-bottom: 15px;
+  }
+  
+  .experience-title,
+  .education-title,
+  .project-title {
+    font-size: 18px;
+    color: #3498db;
+    margin-bottom: 5px;
+  }
+  
+  .experience-desc,
+  .education-desc,
+  .project-desc {
+    font-size: 14px;
+    color: #7f8c8d;
+  }
+  
+  .skill-item,
+  .achievement-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .bullet {
+    background-color: #3498db;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .skill-text,
+  .achievement-text {
+    font-size: 14px;
+    color: #34495e;
+  }
+  
+  @media (max-width: 768px) {
+    .theme5-container {
+      padding: 15px;
+    }
+  
+    .name-heading {
+      font-size: 28px;
+    }
+  
+    .section-title {
+      font-size: 20px;
+    }
+  
+    .section-content {
+      font-size: 14px;
+    }
+  }
+  

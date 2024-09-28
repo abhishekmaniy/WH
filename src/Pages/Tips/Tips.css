@@ -1,0 +1,70 @@
+/* Tips.css */
+
+.tips-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #38B2AC; /* Matching background color from the template */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #fff; /* Text color similar to the template */
+    font-family: "Poppins", sans-serif; /* Consistent font family */
+}
+
+h1 {
+    font-size: 36px;
+    color: #fff; /* White text color for better contrast with dark background */
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif; /* Consistent font */
+}
+
+.tip-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgb(26, 32, 44); /* Darker section background to blend in with the theme */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    color: #eaeaea; /* Lighter text color for contrast */
+}
+
+.tip-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #e74c3c; /* A pop of red to match the color scheme */
+}
+
+.tip-section p {
+    font-size: 18px;
+    color: #eaeaea; /* Lighter gray to match template's color contrast */
+}
+
+.Bullet_Points {
+    display: flex;
+    margin: 5px 0px;
+    align-items: center;
+    color: #eaeaea;
+}
+
+.Bullet_Points p {
+    margin: 0px 5px;
+    color: #eaeaea;
+}
+
+@media (max-width: 768px) {
+    .tips-container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .tip-section h2 {
+        font-size: 20px;
+    }
+
+    .tip-section p {
+        font-size: 16px;
+    }
+}
